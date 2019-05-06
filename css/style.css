@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: black;
+}
+.token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string {
+    font-weight: normal !important;
+    color: var(--color);
+    background: transparent;
+}
